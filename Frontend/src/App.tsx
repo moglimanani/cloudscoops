@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/sidebar";
 
-import Dashboard from "./modules/dashboard";
-import Menus from "./modules/menus";
-import Employees from "./modules/employees";
-import Payroll from "./modules/payroll";
-import Audit from "./modules/audit";
-import Orders from "./modules/orders";
+import Dashboard from "./components/dashboard";
+import Menus from "./components/menus";
+import Employees from "./components/employees";
+import Payroll from "./components/payroll";
+import Audit from "./components/audit";
+import Orders from "./components/orders";
 
 export default function App() {
   return (
